@@ -1,0 +1,204 @@
+:root {
+/* primary */
+    --background-blue :#EDF3F8;
+    --dark-pink :#ba4270;
+    --link-water-white :#fbfcfe;
+/* secondary */
+    --san-juan-blue:#36536b;
+    --mirage-blue:#1b262f;
+    --charm-pink:#da6d97;
+    --light-san-juan-blue :#6c8294;
+}
+
+body {
+    background-color: var(--background-blue) ;
+
+}
+
+.top-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.top-page {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-top-page h1 {
+    width: 100%;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 32px;
+    color: var(--san-juan-blue);
+}
+
+.email {
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    background: white;
+
+}
+
+.form-cta {
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    height: 48px;
+    border: none;
+    background-color: var(--dark-pink);
+    color: var(--link-water-white);
+    border-radius: 24px;
+    font-family: "Public Sans", sans-serif;
+
+
+}
+
+.info-top-page p {
+    margin-top: 24px;
+    text-align: center;
+    color: var(--light-san-juan-blue);
+    font-family: "Public Sans", sans-serif;
+
+}
+
+.contact {
+    font-weight: bold;
+}
+
+.about-container {
+    background-color: var(--mirage-blue);
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.logo {
+    margin-bottom: 56px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo-container img {
+    width: 40%;
+}
+
+.middle {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.about-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-caption h2 {
+    text-align: center;
+    color: var(--link-water-white);
+    font-family: "DM Serif Display", serif;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.about-caption p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Public Sans", sans-serif;
+    color: var(--link-water-white);
+    opacity: 50%;
+    margin-bottom: 32px;
+}
+
+.about-caption li {
+    text-align: center;
+    font-family: "Public Sans", sans-serif;
+    color: var(--link-water-white);
+    list-style-type: none;
+    padding: 0 auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: solid  var(--link-water-white);
+    border-radius: 24px;
+}
+
+.about-caption li:hover {
+    cursor: pointer;
+    color: var(--mirage-blue);
+    background-color: var(--link-water-white);
+}
+
+
+.UX-UI {
+    background-color: var(--background-blue);
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.implement-caption {
+    text-align: center;
+}
+
+.implement-caption h2 {
+    font-family: "DM Serif Display", serif;
+    color: var(--san-juan-blue);
+    font-size: 36px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.implement-caption p {
+    color: var(--light-san-juan-blue);
+    font-family: "Public Sans", sans-serif;
+}
+
+.image-phone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-phone img {
+    width: 45%;
+}
+
+.phone-ux-i-container {
+    text-align: center;
+}
+
+.phone-ux-i-container h2 {
+    font-family: "DM Serif Display", serif;
+    color: var(--san-juan-blue);
+    font-size: 36px;
+}
+
+.phone-ux-i-container p {
+    font-family: "Public Sans", sans-serif;
+    color: var(--light-san-juan-blue);
+}
