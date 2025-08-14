@@ -35,6 +35,43 @@ header {
     margin-bottom: 32px;
 }
 
+#side-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100%;
+    background-color: #1c2a35;
+    color: white;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    padding: 20px;
+}
+
+
+#side-menu.active {
+    right: 0;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#close-menu {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.menu-liste {
+    list-style-type: none;
+    color: var(--link-water-white);
+    font-family: "Public Sans", sans-serif;
+    align-items: center;
+    opacity: 50%;
+    cursor: pointer;
+}
+
 .top-page {
     align-items: center;
     display: flex;
@@ -314,4 +351,10 @@ footer ul {
     font-family: "DM Serif Display", serif;
     color: var(--san-juan-blue);
     font-size: 56px;
+}
+
+.pricing-home li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
 }
