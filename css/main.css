@@ -22,6 +22,12 @@ body {
     padding-right: 24px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--link-water-white);
+
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -201,4 +207,111 @@ header {
 .phone-ux-i-container p {
     font-family: "Public Sans", sans-serif;
     color: var(--light-san-juan-blue);
+}
+
+.stats {
+    margin-top: 80px;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-container h3 {
+    font-family: "Public Sans", sans-serif;
+    color: var(--san-juan-blue);
+    font-size: 18px;
+    margin-top: 33px;
+    margin-bottom: 16px;
+}
+
+.stats-container p {
+    font-family: "Public Sans", sans-serif;
+    color: var(--light-san-juan-blue);
+    text-align: center;
+}
+
+.stats-middle {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+
+.redady-to-start {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.redady-to-start h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 32px;
+    color: var(--san-juan-blue);
+    text-align: center;
+    margin-bottom: 32px;
+
+}
+
+footer {
+    background-color: var(--mirage-blue);
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer li {
+    list-style-type: none;
+    color: var(--link-water-white);
+    font-family: "Public Sans", sans-serif;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+footer ul {
+    margin-top: 40px;
+}
+
+.li-center {
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.social-media {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricing-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    color: var(--san-juan-blue);
+    font-size: 32px;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+}
+
+.pricing-home {
+    text-align: center;
+}
+
+.pricing-home h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    color: var(--dark-pink);
+    margin-bottom: 81px;
+}
+
+.pricing-home p {
+    font-family: "DM Serif Display", serif;
+    color: var(--san-juan-blue);
+    font-size: 56px;
 }
